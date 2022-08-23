@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-neutral-800">
+    <main>
+        <header>
+            <section>
+                <div class="bg-neutral-900 h-[350px]">
+
+                    <!-- text-field -->
+                    <div class="pt-[7%]">
+                        <div class="text-[45px] text-center font-bold text-orange-600">
+                            Select Your Best Five
+                        </div>
+                        <div class="w-[55%] mx-auto pt-[10px] text-slate-200">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                            officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                            nostrud amet. Exercitation veniam consequat sunt.
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </header>
+        <section>
+            <div class="w-[80%] mx-auto  mt-[60px] flex">
+                <!-- playerside -->
+                <section>
+                    <div class="grid grid-cols-3 gap-[25px]">
+                        <!-- playerBox -->
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/messi.jpg" alt="messi">
+                            <div class="font-bold text-slate-200 text-[25px]">Lionel Messi</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-slate-400 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/nymer.jpg" alt="nymer">
+                            <div class="font-bold text-slate-200 text-[25px]">Neymar Jr</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button id="select-borad"
+                                class="font-bold text-slate-200 bg-blue-600 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/mbappe.jpg" alt="Kylian Mbappé">
+                            <div class="font-bold text-slate-200 text-[25px]">Kylian Mbappé</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-slate-400 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/Vítor Machado.jpg" alt="Vítor Machado">
+                            <div class="font-bold text-slate-200 text-[25px]">Vítor Machado</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-blue-600 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 border-[1px] border-slate-700 w-[250px] h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/Sergio Ramos.jpeg" alt="Sergio Ramos">
+                            <div class="font-bold text-slate-200 text-[25px]">Sergio Ramos</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-blue-600 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/Renato Sanches.jpg" alt="Renato Sanches">
+                            <div class="font-bold text-slate-200 text-[25px]">Renato Sanches</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-blue-600 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/messi.jpg" alt="messi">
+                            <div class="font-bold text-slate-200 text-[25px]">Lionel Messi</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-slate-400 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/nymer.jpg" alt="nymer">
+                            <div class="font-bold text-slate-200 text-[25px]">Neymar Jr</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-blue-600 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/mbappe.jpg" alt="Kylian Mbappé">
+                            <div class="font-bold text-slate-200 text-[25px]">Kylian Mbappé</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-slate-400 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/Vítor Machado.jpg" alt="Vítor Machado">
+                            <div class="font-bold text-slate-200 text-[25px]">Vítor Machado</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-blue-600 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/Sergio Ramos.jpeg" alt="Sergio Ramos">
+                            <div class="font-bold text-slate-200 text-[25px]">Sergio Ramos</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-blue-600 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+                        <div
+                            class="bg-neutral-900 w-[250px] border-[1px] border-slate-700 h-[330px] text-center flex flex-col justify-between items-center pb-[15px]">
+                            <img class="w-[100%] h-[165px] " src="./images/Renato Sanches.jpg" alt="Renato Sanches">
+                            <div class="font-bold text-slate-200 text-[25px]">Renato Sanches</div>
+                            <div class="font-semibold text-slate-400">6 Goals - 120 Assist</div>
+                            <button class="font-bold text-slate-200 bg-blue-600 w-[90%] h-[30px]">SELECT</button>
+                        </div>
+
+
+
+                    </div>
+                </section>
+
+                <!-- select-budgetbox -->
+
+                <div class="ml-[25px]">
+                    <div
+                        class="pb-[30px] flex flex-col justify-between w-[250px] h-[330px] bg-neutral-900 text-slate-200 text-center ">
+                        <div class="text-[30px] pt-[20px] pb-[0px]">Selected-V</div>
+                        <div class="pb-6 ">
+                            <ol class="text-2xl leading-relaxed">
+                                <li>1. Lionel Messi</li>
+                                <li>2. Kylian Mbappé</li>
+                                <li>3. Neymar Jr</li>
+                                <li>4. Vítor Machado</li>
+                                <li>5. Sergio Ramos</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                    <div class="w-[250px] h-[450px] bg-neutral-900 mt-[25px] text-slate-200 p-[10px]">
+                        <div class="main-title text-center font-bold text-[30px] ">Budget</div>
+                        <div class="per-calculate h-[80px] mt-[20px] flex flex-col justify-between ">
+                            <div>
+                                <label>Per Player</label>
+                                <input class="w-[120px] h-[35px] p-[5px] border-[1px] bg-neutral-900 ml-[20px]"
+                                    type="text" placeholder="1000">
+                            </div>
+                            <button
+                                class="font-bold flex items-center justify-center mx-auto text-slate-200 bg-blue-600 w-[95%] h-[30px]">Calculate</button>
+                        </div>
+
+                        <div class="total-calculate  h-[250px] mt-[30px] flex flex-col justify-between ">
+                            <div class="flex justify-evenly">
+                                <div>Player Expenses</div>
+                                <div>
+                                    <h1>$<span>5000</span></h1>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label>Manager</label>
+                                <input class="w-[120px] h-[35px] p-[5px] border-[1px] bg-neutral-900 ml-[30px]"
+                                    type="text" placeholder="2000">
+                            </div>
+                            <div>
+                                <label>Caoch</label>
+                                <input class="w-[120px] h-[35px] p-[5px] border-[1px] bg-neutral-900 ml-[48px]"
+                                    type="text" placeholder="4000">
+                            </div>
+                            <button
+                                class="font-bold flex items-center justify-center mx-auto text-slate-200 bg-blue-600 w-[95%] h-[30px]">Calculate
+                                Total</button>
+                            <div class="flex justify-evenly">
+                                <div>Total</div>
+                                <div>
+                                    <h1 class="text-orange-500">$<span>1100</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <footer
+                class="footer w-[100%] text-center text-slate-200 h-[100px] border-t-[1px] border-slate-400 flex items-center justify-center mt-[100px]">
+                <p>Copyright @ 2022 All Rights Reserved.</p>
+            </footer>
+        </section>
+    </main>
+
+    <script src="js/calculate.js"></script>
+</body>
+
+</html>
